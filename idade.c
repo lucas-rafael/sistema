@@ -4,10 +4,12 @@
 /*programa para calcular a sua idade em dias*/
 main()
 {
-	float anos, dias; /*variaveis*/
-	printf("Digite valor de v: ");
-	scanf("%f"); /*ler idade em anos*/
-	v = v *365; /*calcula a idade em dias*/
-	printf("Sua v em m e' %.0f \n", m); /*impressao do resultado*/
+	int anos; /*variaveis*/
+	printf("Digite sua idade em anos: ");
+	scanf("%i", &anos); /*ler idade em anos*/
+	
+	printf("Sua idade em dia e' %d \n", anos*365); /*impressao do resultado*/ 
+	
+	//retirar o system("pause"); para sistema linux
 	system("pause");
 }
