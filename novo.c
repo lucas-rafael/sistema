@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+void main()
 {
-	printf("Novo Sistema"); /*impressao do resultado*/
+	printf("Novo Sistema\n"); /*impressao do resultado*/
 }
